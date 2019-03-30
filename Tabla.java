@@ -19,8 +19,9 @@ public class Tabla{
     }
 
     public void imprimirTabla(){
-        for(int i;i<tablero.length;i++){
+        for(int i,k=0;i<tablero.length;i++,k--){
             for(int j;j<tablero[i].length;j++){
+                System.out.println("hola");
                 System.out.println(tablero[i][j]);
             }
         }
