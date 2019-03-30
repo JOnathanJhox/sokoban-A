@@ -1,6 +1,8 @@
 import sun.security.util.Length;
 
 public class Tabla{
+    private int hight;
+    private int width;
     private String tablero[][]={{'B','B','B','B','M','M','M','M','M'},
                             {'B','B','B','B','M','L','L','L','M'},
                             {'B','B','B','B','M','L','L','L','M'},
